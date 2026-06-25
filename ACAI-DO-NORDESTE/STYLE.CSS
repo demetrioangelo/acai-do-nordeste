@@ -1,0 +1,132 @@
+body{
+    margin:20;
+    font-family:Arial, sans-serif;
+    background:rgb(228, 111, 15);
+    color:rgb(243, 239, 239);
+    text-align:center;
+}
+
+header{
+    padding:20px;
+    background:#2b2a29;
+}
+
+header h1{
+    color:rgb(228, 154, 18);
+    font-size:50px;
+}
+
+nav{
+    background:#bd0d0d;
+    padding:15px;
+}
+
+nav a{
+    color:rgb(247, 242, 242);
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+.cardapio{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.item{
+    background:#2b2a29;
+    color:white;
+    width:200px;
+    padding:30px;
+    border-radius:15px;
+    font-size:25px;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+    transition:0.3s;
+}
+
+.item:hover{
+    transform:translateY(-10px);
+}
+
+section{
+    padding:30px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+ul li{
+    background:#2b2a29;
+    width:300px;
+    margin:10px auto;
+    padding:15px;
+    border-radius:10px;
+}
+
+article{
+    background:#2b2a29;
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+}
+
+.galeria{
+    padding:40px;
+}
+
+.galeria img{
+    width:250px;
+    margin:10px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.05);
+}
+
+input,
+textarea{
+    width:300px;
+    padding:12px;
+    margin:10px;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    padding:12px 25px;
+    background:gold;
+    border:none;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+footer{
+    background:#2b2a29;
+    padding:20px;
+    margin-top:30px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+}
